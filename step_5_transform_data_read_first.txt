@@ -1,0 +1,14 @@
+STEP_5 : Transform the data take file from folder data_step_4_scrap_merged
+
+This is ipynb file so First select kernal (env(3.12.2)) 
+
+Start Run All
+
+This will create sunbiz.xlsx file for all data
+
+You can adjust This part as per you requirement. 
+
+with pd.ExcelWriter('sunbiz.xlsx', engine='xlsxwriter') as writer:
+    df.iloc[0:400000].to_excel(writer, sheet_name=f'sunbiz_1', index=False)
+    df.iloc[400001:800000].to_excel(writer, sheet_name=f'sunbiz_2', index=False)
+    df.iloc[800001:-1].to_excel(writer, sheet_name=f'sunbiz_3', index=False)

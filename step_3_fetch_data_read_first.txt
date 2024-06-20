@@ -1,0 +1,25 @@
+STEP_3 : Scraping the data from URLs (This will take 10 to 15 days for process)
+
+First we have to define which series of data has to be process
+
+'''
+# Reading the series nuber taht we want to process 
+HERE Define your series number
+'''
+input_series = 1
+
+Example : input_series = 1 This will take 1,11,12,13,..,19,111,112,113,..,199,1111,1112,..,1999,..
+Example : input_series = 2 This will take 2,21,22,23,..,29,221,222,223,..,299,2221,2222,..,2999,..
+...
+Example : input_series = 9 This will take 9,91,92,93,..,99,991,992,993,..,999,9991,9992,..,9999,..
+
+
+This will create folder name 'data_step_3_scrap'
+
+where all json are stored name
+
+data_step_3_scrap/1_chunk/Jxxxxxxxxx.jsons
+data_step_3_scrap/2_chunk/Jxxxxxxxxx.jsons
+data_step_3_scrap/3_chunk/Jxxxxxxxxx.jsons
+...
+data_step_3_scrap/n_chunk/Jxxxxxxxxx.jsons

@@ -1,0 +1,28 @@
+STEP_1 : Might be take 4 to 5 day to Process
+
+Adjust keyword according
+
+"""
+Define your keyword that you want to start
+"""
+keyword = '2'
+
+
+Keyword start form
+#,0,1,2,3,4,5,6,7,8,9
+to
+A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z
+
+All file will be saved in data_step_1
+data_step_1/step_1_urls_#.csv
+data_step_1/step_1_urls_1.csv
+data_step_1/step_1_urls_2.csv
+.
+.
+data_step_1/step_1_urls_A.csv
+data_step_1/step_1_urls_B.csv
+.
+.
+.
+data_step_1/step_1_urls_Y.csv
+data_step_1/step_1_urls_Z.csv

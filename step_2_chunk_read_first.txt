@@ -1,0 +1,26 @@
+STEP_2 : Combine URLs it might be take 20 to 25 minutes(Depends upon your amount of data)
+
+After running step_2_chunk.py two file will create
+
+data_step_2_chunk ->  Here will your all chunk of URLs will be saved
+data_step_2_merge ->  Here will your all data of URLs named 'merge_data.csv' (upto 1 Million) 
+
+
+"""
+Output of this process
+"""
+
+1320 -> Number of URLs in data_step_1 folder
+0_chunk.csv has been saved
+1_chunk.csv has been saved
+2_chunk.csv has been saved
+3_chunk.csv has been saved
+4_chunk.csv has been saved
+5_chunk.csv has been saved
+6_chunk.csv has been saved
+.
+.
+.
+.
+n_chunk.csv has been saved
+Divided into the chunks

@@ -1,0 +1,20 @@
+STEP_4 : Merge all json from data_step_3_scrap folder (It will take 1 to 1.5 hours to complete)
+
+This file will create data_step4_scrap_merged folder where file name scrap_df where all data has been delevired
+
+This file take parameters
+
+'Document Number'
+'Status'
+'Case Number'
+'Name of Court'
+'File Date'
+'Date of Entry'
+'Expiration Date'
+'Amount Due'
+'Interest Rate'
+'creditors'
+'debtors'
+'Original Document'
+'Amount Remaining'
+'url'

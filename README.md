@@ -4,7 +4,7 @@
 ** Using cmd : python -m venv env
 
 # step_0 : Activate your python environment
-** Using cmd : cd env\Scripts\activate
+** Using cmd : env\Scripts\activate
 
 # step_1 : Install all dependencies
 ** Using : pip install -r requirement.txt
